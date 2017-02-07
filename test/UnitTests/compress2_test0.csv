@@ -1,9 +1,0 @@
-CodeScroll Unit Tester(Controller Tester) Test Data
-test name:compress2_test0,""
-,<input>,dest_mem[0],destLen_mem[0],level,source_mem[0],sourceLen,<expect>,returnVar,<output>,returnVar
-1,"","2","0","2147483647","0","0",,"",,"-5"
-2,"","0","1","2","0","0",,"",,"-5"
-3,"","255","1","0","255","1",,"",,"-5"
-4,"","0","2","1","2","4294967295",,"",,"-5"
-5,"","1","4294967295","-2147483648","1","2",,"",,"-5"
-6,"","1","0","-1","1","1",,"",,"-5"
