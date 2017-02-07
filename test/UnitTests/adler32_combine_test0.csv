@@ -1,0 +1,8 @@
+CodeScroll Unit Tester(Controller Tester) Test Data
+test name:adler32_combine_test0,""
+,<input>,adler1,adler2,len2,<expect>,<output>
+1,"","0","1","-1",,
+2,"","1","4294967295","-2147483648",,
+3,"","1","0","0",,
+4,"","4294967295","1","1",,
+5,"","0","0","2147483647",,
